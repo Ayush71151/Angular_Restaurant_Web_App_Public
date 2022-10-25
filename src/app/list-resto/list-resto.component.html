@@ -1,0 +1,25 @@
+<h1 class="text-center text-secondary pt-3 pb-3">List Resto</h1>
+
+<table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Resto Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Add</th>
+        <th scope="col">Delete</th>
+        <th scope="col">Edit</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let item of collection">
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.add}}</td>
+        <td><i (click)="deleteResto(item.id)" class="fa fa-trash" style="font-size:25px;color:black"></i></td>
+        <td><a routerLink="/update/{{item.id}}"><i class="fa fa-edit" style="font-size:25px;color:grey "></i></a></td>
+      </tr>
+    </tbody>
+  </table>
+  

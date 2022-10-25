@@ -1,0 +1,29 @@
+
+<br><h1 class="text-secondary text-center">Add Resto</h1><br>
+
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Successful!</strong> Your Data has been saved.
+    <button (click)="closeAlert" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+<div class="row justify-content-center">
+  <div class="col-6 bg-light p-5">
+    <form [formGroup]="addResto" (ngSubmit)="collectResto()">
+       <div class="form-group">
+         <label >RESTO NAME</label>
+         <input type="text" class="form-control" formControlName='name'  placeholder="Enter Name">
+       </div>
+       <div class="form-group">
+         <label >EMAIL</label>
+         <input type="email" class="form-control" formControlName='email' placeholder="Enter Email">
+       </div>
+       <div class="form-group">
+         <label >ADDRESS</label>
+         <input type="Text" class="form-control" formControlName='add'  placeholder="Enter Address" >
+       </div>
+       <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>

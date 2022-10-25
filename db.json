@@ -1,0 +1,132 @@
+{
+  "posts": [
+    {
+      "name": "TI Resto",
+      "email": "tiresto@gmail.com",
+      "add": "Bhawarkua, Indore",
+      "id": 13
+    },
+    {
+      "name": "Apna Resto",
+      "email": "apna@gmail.com",
+      "add": "LIG Square, Indore",
+      "id": 14
+    },
+    {
+      "id": 15,
+      "name": "Sapna Resto",
+      "email": "sapna@gmail.com",
+      "add": "indore"
+    },
+    {
+      "name": "Apna Resto",
+      "email": "apna@gmail.com",
+      "add": "Paliya, Indore",
+      "id": 17
+    },
+    {
+      "name": "Sapna Resto",
+      "email": "sapna@gmail.com",
+      "add": "Dewas",
+      "id": 18
+    },
+    {
+      "name": "Cafe Resto",
+      "email": "cafe@gmail.com",
+      "add": "Rajwada Square, Indore",
+      "id": 21
+    },
+    {
+      "id": 22,
+      "name": "Apna Resto",
+      "email": "apna@gmail.com",
+      "add": "indore"
+    },
+    {
+      "name": "TI Restaurant",
+      "email": "tirestaurant@gmail.com",
+      "add": "Plasia, Indore",
+      "id": 23
+    },
+    {
+      "name": "Kalpana Resto",
+      "email": "kalpanaresto@gmail.com",
+      "add": "vijaynagar, Indore",
+      "id": 24
+    },
+    {
+      "name": "Tera Mera Sabka Resto",
+      "email": "tms@gmail.com",
+      "add": "navlakha, Indore",
+      "id": 25
+    },
+    {
+      "name": "Ayush resto",
+      "email": "ayush@gmail.com",
+      "add": "ayush pal",
+      "id": 26
+    },
+    {
+      "name": "Annu Resto",
+      "email": "annu@gmail.com",
+      "add": "Bina",
+      "id": 27
+    }
+  ],
+  "users": [
+    {
+      "name": "Ayush",
+      "email": "ayush@gmail.com",
+      "pass": "ayush",
+      "id": 1
+    },
+    {
+      "name": "Ayushi ",
+      "email": "ayushi@gmail.com",
+      "pass": "143",
+      "id": 2
+    },
+    {
+      "name": "muskan",
+      "email": "muskan@gmail.com",
+      "pass": "muskan",
+      "id": 3
+    },
+    {
+      "name": "kalpana",
+      "email": "kalpana@gmail.com",
+      "pass": "kalapana",
+      "id": 4
+    },
+    {
+      "name": "Ayush Pal",
+      "email": "ayushpal@gmail.com",
+      "pass": "12345",
+      "id": 5
+    },
+    {
+      "name": "SUrbhi",
+      "email": "surbhi@gmail.com",
+      "pass": "1234",
+      "id": 6
+    },
+    {
+      "name": "Name",
+      "email": "name@gmail.com",
+      "pass": "12345",
+      "id": 7
+    },
+    {
+      "name": "anupriya",
+      "email": "anupriya@gmail.com",
+      "pass": "143",
+      "id": 8
+    },
+    {
+      "name": "ayushii insta",
+      "email": "ayushiinsta@gmail.com",
+      "pass": "Ayushiinsta",
+      "id": 29
+    }
+  ]
+}
